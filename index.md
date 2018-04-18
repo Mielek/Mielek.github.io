@@ -1,3 +1,8 @@
+---
+layout: default
+title: My Home page
+---
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Mielek/mielowski.com/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
