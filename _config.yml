@@ -1,3 +1,14 @@
-title: Rafal Mielowski
+lang: en
+title: mielowski.com
 description: [TODO description]
 logo: /assets/img/rafal-small.jpg
+author: Rafal Mielowski
+
+github: Mielek
+linkedin: mielek
+twitter: Mielek
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-menus
