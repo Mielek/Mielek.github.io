@@ -22,73 +22,57 @@ footer {
   margin: auto;
 }
 
-.social-media-list {
-  background-color: lightgray;
-  width: 200px;
+p {
+  width: 50%;
+  text-align: justify;
+  padding: 5px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.contact-list {
+  width: 25%;
   list-style-type: none;
   margin: auto;
   padding: 0;
   overflow: hidden;
 }
 
-.social-media-list li {
-  float: left;
+.contact-list li {
+  display:inline-block;
   overflow: auto;
-  width: 50%;
+  width: auto;
 }
 
-.social-media-list li a {
+.contact-list li a {
+  background-color: #ececec;
   display: block;
   color: black;
   text-align: center;
-  padding: 16px;
+  padding: 10px;
   text-decoration: none;
+  border-radius: 50px;
+  border: 2px solid lightgray;
 }
 
-.social-media-list li a:hover {
+.contact-list li a svg {
+  display: block;
+}
+
+.contact-list li a:hover {
     background-color: lightblue;
+    border: 2px solid lightseagreen;
 }
 
 @media print, screen and (max-width: 960px) {
-  body {
-    word-wrap:break-word;
-  }
-  header, main, footer {
-    float:none;
-    position:static;
-    width:auto;
-  }
 }
 
 @media print, screen and (max-width: 720px) {
-  body {
-    word-wrap:break-word;
-  }
-  header, main, footer {
-    float:none;
-    position:static;
-    width:auto;
-  }
 }
 
 @media print, screen and (max-width: 480px) {
-  body {
-    word-wrap:break-word;
-  }
-  header, main, footer {
-    float:none;
-    position:static;
-    width:auto;
-  }
 }
 
 @media print {
-  body {
-    word-wrap:break-word;
-  }
-  header, main, footer {
-    float:none;
-    position:static;
-    width:auto;
-  }
 }
