@@ -12,23 +12,11 @@ menus:
 {% capture aboutme %}
 {% include_relative aboutme.md %}
 {% endcapture %}
-{% capture content %}
-{% include_relative exp_edu.md %}
-{% include_relative skills.md %}
-{% endcapture %}
-
-<div class="left-panel">
+<header>
     <h1>{{ page.title }}</h1>
-    <img src="{{ page.logo }}" />
-    <section>
-        {{ aboutme | markdownify }}
-    </section>
-    {%- include social_media.html -%}
-    <div class="newest-post-panel">
-      {%- include newestPost.html -%}
-    </div>
-</div>
-
-<section class="content">
-    {{ content | markdownify }}
+</header>
+<img src="{{ page.logo }}" />
+<section>
+    {{ aboutme | markdownify }}
 </section>
+{%- include social_media.html -%}

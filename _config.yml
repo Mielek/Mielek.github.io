@@ -1,12 +1,11 @@
 lang: en
 title: mielowski.com
-description: [TODO description]
 logo: /assets/img/rafal-small.jpg
 author: Rafal Mielowski
 
-github: Mielek
+github: mielek
 linkedin: mielek
-twitter: Mielek
+twitter: mielek
 
 plugins:
  - jekyll-feed

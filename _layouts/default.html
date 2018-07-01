@@ -4,22 +4,15 @@
 {%- include head.html -%}
 
 <body>
-    <header>
-        {%- include menu.html -%}
-    </header>
-
-    <main>
-        {{ content }}
-    </main>
-
+    {{ content }}
     <footer>
         {%- include copyright.html -%}
     </footer>
 
 </body>
 
-<button onclick="topFunction()" id="goUpButton" title="Go to top">Top</button>
-<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/goUpButton.js' | relative_url }}"></script>
+<!-- button onclick="topFunction()" id="goUpButton" title="Go to top">Top</button>
+<script src="{{ '/assets/js/goUpButton.js' | relative_url }}"></script -->
 
+<script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 </html>
