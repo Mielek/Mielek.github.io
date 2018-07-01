@@ -16,7 +16,5 @@ menus:
     <h1>{{ page.title }}</h1>
 </header>
 <img src="{{ page.logo }}" />
-<section>
-    {{ aboutme | markdownify }}
-</section>
-{%- include social_media.html -%}
+{{ aboutme | markdownify }}
+{%- include contact.html -%}

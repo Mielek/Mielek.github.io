@@ -1,20 +1,27 @@
-<ul class="social-media-list">
+<ul class="contact-list">
     <li>
         <a href="https://github.com/{{ site.github | escape }}">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <svg viewBox="0 0 16 16" width="18px" height="18px">
                 <use xlink:href="{{ '/assets/img/social-icons.svg#github' | relative_url }}"></use>
             </svg>
             <!-- img src="/assets/img/GitHub-Mark-32px.png" alt="github" style="width:28px;height:28px;" / -->
-            <span class="username">{{ site.github | escape }}</span>
+            <!-- span class="username">{{ site.github | escape }}</span -->
         </a>
     </li>
     <li>
         <a href="https://www.linkedin.com/in/{{ site.linkedin | escape }}">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <svg viewBox="0 0 16 16" width="18px" height="18px">
                 <use xlink:href="{{ '/assets/img/social-icons.svg#linkedin' | relative_url }}"></use>
             </svg>
             <!--img src="/assets/img/In-2C-28px-R.png" alt="linkedin" /-->
-            <span class="username">{{ site.linkedin | escape }}</span>
+            <!-- span class="username">{{ site.linkedin | escape }}</span -->
+        </a>
+    </li>
+    <li>
+        <a href="mailto:{{ site.mail | escape }}">
+            <svg viewBox="0 0 483.3 483.3" width="18px" height="18px">
+                <use xlink:href="{{ '/assets/img/social-icons.svg#envelope' | relative_url }}"></use>
+            </svg>
         </a>
     </li>
 </ul>
