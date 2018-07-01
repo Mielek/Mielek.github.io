@@ -1,0 +1,22 @@
+---
+layout: default
+title: Rafal M. Mielowski
+logo: "/assets/img/rafal-vsmall.jpg"
+permalink: /
+menus:
+  header:
+    title: Home
+    weight: 1
+---
+
+{% capture aboutme %}
+{% include_relative aboutme.md %}
+{% endcapture %}
+<header>
+    <h1>{{ page.title }}</h1>
+</header>
+<img src="{{ page.logo }}" />
+<section>
+    {{ aboutme | markdownify }}
+</section>
+{%- include social_media.html -%}

@@ -1,1 +1,13 @@
-theme: jekyll-theme-minimal
+lang: en
+title: mielowski.com
+logo: /assets/img/rafal-small.jpg
+author: Rafal Mielowski
+
+github: mielek
+linkedin: mielek
+twitter: mielek
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-menus

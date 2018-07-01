@@ -1,0 +1,10 @@
+<p>
+    <a href="{{ 'feed.xml' | relative_url }}">
+        <small>Subscribe via RSS</small>
+        <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <use xlink:href="{{ '/assets/img/social-icons.svg#rss' | relative_url }}"></use>
+        </svg>
+        <!--img src="/assets/img/feed-icon-28x28.png" alt="rss feed" /-->
+        <span>{{ site.rss | escape }}</span>
+    </a>
+</p>
