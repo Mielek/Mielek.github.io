@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    overflow: auto;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: lightblue;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: 80%;
+}
+
+footer p {
+    text-align: center;
+}
+
+main p {
+    width: 50%;
+    text-align: justify;
+    padding: 5px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact-list {
+    width: 25%;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.contact-list li {
+    display:inline-block;
+    overflow: auto;
+    width: auto;
+}
+
+.contact-list li a {
+    background-color: #ececec;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 2px solid lightgray;
+}
+
+.contact-list li a svg {
+    display: block;
+}
+
+.contact-list li a:hover {
+    background-color: lightblue;
+    border: 2px solid lightseagreen;
+}
+
+.goUpButton {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: gray; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+.goUpButton:hover {
+background-color: darkslategray; /* Add a dark-grey background on hover */
+}
+
+@media print, screen and (max-width: 960px) {
+}
+
+@media print, screen and (max-width: 720px) {
+    header {
+        width: 90%;
+    }
+    footer {
+        width: 90%;
+    }
+    p {
+        width: 90%;
+    }
+    .contact-list {
+        width: 45%;
+    }
+}
+
+@media print, screen and (max-width: 480px) {
+}
+
+@media print {
+}
